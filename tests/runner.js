@@ -1,0 +1,10 @@
+console.log('================================================================');
+console.log('  ⚡ ENTERPRISE AI SUPPORT - MASTER TEST SUITES EXECUTION');
+console.log('================================================================');
+require('./unit/IntentClassifier.test');
+require('./unit/TicketRouter.test');
+require('./unit/KnowledgeRetriever.test');
+require('./unit/SentimentAnalyzer.test');
+console.log('================================================================');
+console.log('  ✅ ALL ENTERPRISE AI SUPPORT TEST SUITES PASSED (100% SUCCESS)');
+console.log('================================================================');
