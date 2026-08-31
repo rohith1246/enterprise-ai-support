@@ -1,0 +1,11 @@
+{
+  "name": "enterprise-ai-support",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Enterprise AI Customer Support Automation, Intelligent Ticket Routing & Sentiment Copilot",
+  "main": "server/gateway/SupportGatewayServer.js",
+  "scripts": {
+    "start": "node server/gateway/SupportGatewayServer.js",
+    "test": "node tests/runner.js"
+  }
+}
