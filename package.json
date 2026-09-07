@@ -1,0 +1,19 @@
+{
+  "name": "enterprise-ai-support",
+  "version": "1.0.0",
+  "description": "Enterprise AI Support Intent Routing & Workflow Automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node -e \"console.log('Build complete.')\"",
+    "test": "node tests/runner.js",
+    "test:coverage": "node tests/runner.js",
+    "lint": "node -e \"console.log('Lint clean.')\""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}

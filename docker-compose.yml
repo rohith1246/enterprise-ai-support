@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  enterprise-ai-support:
+    build: .
+    container_name: enterprise-ai-support_app
+    ports:
+      - "7000:7000"
+    restart: always
